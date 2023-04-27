@@ -1,0 +1,19 @@
+#main {
+  font-size: 50px;
+  margin: 50px;
+}
+
+#fields {
+  margin: 50px 0px;
+}
+
+input {
+  display: flex;
+  font-size: 50px;
+}
+
+button {
+  cursor: pointer;
+  font-size: 50px;
+  margin: 0px 20px 0px 0px;
+}
