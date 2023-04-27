@@ -42,8 +42,13 @@ export default function App() {
       <div>Welcome: {currentUser?.email} </div>
 
       <div id="fields">
-        <input ref={emailRef} placeholder="Email" />
-        <input ref={passwordRef} type="password" placeholder="Password" />
+        <input ref={emailRef} placeholder="Email" required />
+        <input
+          ref={passwordRef}
+          type="password"
+          placeholder="Password"
+          required
+        />
       </div>
 
       <button disabled={loading || currentUser} onClick={handleSignup}>
