@@ -39,7 +39,7 @@ export default function App() {
 
   return (
     <div id="main">
-      <div>Welcome: {currentUser?.email} </div>
+      <div> {currentUser?.email} </div>
 
       <div id="fields">
         <input ref={emailRef} placeholder="Email" required />
